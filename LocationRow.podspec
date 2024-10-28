@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = { "LocationRow" => ["LocationRow/**/*.{xib,xcassets,json,imageset,png}"] }
   s.swift_version = "4.2"
   s.requires_arc = true
-  s.dependency "Eureka", "~> 4.3"
+  s.dependency "Eureka", "~> 5.0"
 end
